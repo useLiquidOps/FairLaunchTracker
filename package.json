@@ -1,0 +1,19 @@
+{
+  "name": "ao-script",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run prettier && bun run index.ts",
+    "prettier": "prettier --write ."
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "prettier": "^3.5.1"
+  }
+}
